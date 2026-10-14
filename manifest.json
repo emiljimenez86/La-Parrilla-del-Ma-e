@@ -1,6 +1,6 @@
 {
-  "name": "La Parrilla del Mañe | Menú digital",
-  "short_name": "La Parrilla",
+  "name": "La Parrilla del Mañe",
+  "short_name": "La Parrilla del Mañe",
   "description": "Menú digital de La Parrilla del Mañe. Asados, comidas rápidas, adiciones y bebidas.",
   "start_url": "./index.html",
   "scope": "./",

@@ -1,4 +1,4 @@
-const CACHE_NAME = "parrilla-mane-v4";
+const CACHE_NAME = "parrilla-mane-v5";
 const urlsToCache = [
   "./index.html",
   "./css/styles.css",
