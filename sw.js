@@ -1,4 +1,4 @@
-const CACHE_NAME = "parrilla-mane-v5";
+const CACHE_NAME = "parrilla-mane-v7";
 const urlsToCache = [
   "./index.html",
   "./css/styles.css",
@@ -9,6 +9,10 @@ const urlsToCache = [
   "./image/logo.jpeg",
   "./image/logo-192.png",
   "./image/logo-512.png",
+  "./image/productos/Chuzos.jpg",
+  "./image/productos/Pechuga.jpg",
+  "./image/productos/Punta.jpg",
+  "./image/productos/Churrasco.jpg",
 ];
 
 self.addEventListener("install", (event) => {

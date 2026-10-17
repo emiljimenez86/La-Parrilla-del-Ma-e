@@ -196,9 +196,13 @@ function renderCategory(id) {
       const dishName = orderDishName(category, item);
       const order = contactData.whatsappOrder;
       const juice = juiceChooser(item, index);
+      const photo = item.image
+        ? `<img class="dish-photo" src="${item.image}" alt="${item.name}" width="900" height="1350" loading="${index === 0 ? "eager" : "lazy"}" decoding="async" />`
+        : "";
       return `
         <article class="dish"${item.bases ? ` data-juice="${dishName}"` : ""}>
           <span class="tacks" aria-hidden="true"><i></i><i></i></span>
+          ${photo}
           <div class="dish-main">
             <h3>${item.name}</h3>
             <span class="price">${price}</span>

@@ -762,6 +762,19 @@ html.is-ios:not(.is-installed) .ios-install:not(.is-hidden) {
 .dish:nth-child(5) { --tilt: -0.65deg; }
 .dish:nth-child(6) { --tilt: 0.8deg; }
 
+.dish-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+}
+
 .dish-main {
   display: flex;
   flex-direction: column;
